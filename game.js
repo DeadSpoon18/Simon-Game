@@ -11,7 +11,6 @@ function nextSequence() {
     $("#" + randomChosenColor).fadeIn(100).fadeOut(100).fadeIn(100)
     playSound(randomChosenColor)
     animatePress(randomChosenColor)
-    console.log(gamePattern)
     level++
     $("#level-title").text("Level " + level)
     userClickedPattern = [];
